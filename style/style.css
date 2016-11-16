@@ -1,3 +1,7 @@
+.container div {
+  box-sizing: border-box;
+}
+
 .itemlist{
   display: flex;
   justify-content: space-around;
@@ -5,7 +9,9 @@
 }
 
 .item {
-  width: 32%
+  width: 30%;
+  background: rgba(0,0,0,.05);
+  margin: 0.3em 0.3em 3px 0.3em;
 }
 
 .img-loading {

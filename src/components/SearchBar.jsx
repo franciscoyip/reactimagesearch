@@ -25,8 +25,8 @@ class SearchBar extends Component {
       <div>
         <h1>Find an Image</h1>
         <form onSubmit={this.handleSubmit}>
-          <div><input ref={(input) => this.textInput = input}/></div>
-          <button type="submit">Search</button>
+          <div><input ref={(input) => this.textInput = input} className="form-control"/></div>
+          <button type="submit" className="btn btn-primary">Search</button>
         </form>
       </div>
     );
