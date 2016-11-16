@@ -1,0 +1,22 @@
+.itemlist{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 32%
+}
+
+.img-loading {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.img-loaded {
+  opacity: 1;
+}
+
+.item img {
+  width: 100%;
+}
