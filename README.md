@@ -3,7 +3,7 @@ Checkout this repo, install dependencies, then start the gulp process with the f
 
 ```
 	> git clone git@github.com:franciscoyip/reactimagesearch.git
-	> cd ReactReduxImageSearch
+	> cd reactimagesearch
 	> npm install
 	> npm run dev
 ```
